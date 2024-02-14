@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cutive", serif;
+    font-size: 24px;
+    color: #531913;
+    background-color: #FFFFFC;
+
+}
+
+h1 {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 84px;
+    color: #490250;
+}
+
+small {
+    font-size: 12px;
+}
+
+hr {
+    width: 60%;
+    color: #AB3428;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F49E4C;
+    width: 100%;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.content-container__main {
+    flex-direction: column;
+}
+
+.content-container__events {
+    justify-content: space-around;
+}
+
+.content-container__attendance {
+    flex-direction: column;
+}
+
+.content-container__attendance p {
+    margin: 0;
+}
